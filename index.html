@@ -1,77 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- não permite zoom
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Projeto Final HTML 5</title>
-  <!-- google.com.br/webmasters -->
-  <!-- SEO - Search Engine Optmize -->
-  <!-- Meta Author: Quem esta publicando esta pagina -->
-  <meta name="author" content="Thiago Martinez">
-  <!-- Meta descripition: Resumo do conteudo que será encontrado nesta pagina (recomendado 25 a 30 palavras)-->
-  <meta name="descripition" content="Projeto final elaborata do curso de HTML5">
-  <!-- Meta Keywords: Palavras chaves que condizem com o contexto/conteudo da sua pagina em questão. Muda de pagina para pagina, muito importante para a indexação do google (até 25 palavras chaves) -->
-  <meta name="keywords" content="Projeto final elaborata, Curso html5">
-  <!-- SEO - Search Engine Optmize -->
-  <!-- bootstrap -->
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projeto em Bootstrap</title>
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<body>
-  <!-- https://schema.org  marcação de dados-->
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Colombo, Brasil",
-      "postalCode": "83405187",
-      "streetAddress": "Rua foz do jordão, 18"
-    },
-    "email": "thiago(at)nithi.com.br",
-    "faxNumber": "(41) 3324-0015",
-    "name": "Nithi",
-    "telephone": "(41) 3324-0015"
-  }
-  </script>
-<!-- DIV PRINCIPAL DE TOdo CONTEUDO -->
-<!-- container -->
-<div class="container">
-  <!-- inicio linha -->
-<div class="row">
-    <div class="col-sm-12">
-      Uma COluna de Grid-12 (100% de largura)
-    </div>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<!-- Menu principal -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- div para menu de celular -->
+  <div class="navbar-header">
+    <button type="button" name="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#menu principal" aria-expanded="false">
+    <span class="sr-only">Menu para Celular</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
   </div>
-  <!-- fim primeira linha -->
-  <!-- inicio segunda linha -->
-  <div class="row">
-    <div class="col-md-4">
-      <h3>Coluna 1 de 3</h3>
-    </div>
-    <div class="col-md-4">
-      <h3>Coluna 2 de 3</h3>
-    </div>
-    <div class="col-md-4">
-      <h3>Coluna 3 de 3</h3>
-    </div>
   </div>
-  <!-- fim segunda linha -->
-</div>
-</div>
-<!-- FIM DIV PRINCIPAL -->
-
-
-</div>
-</body>
+</nav>
+<!-- Menu principal -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
 </html>
