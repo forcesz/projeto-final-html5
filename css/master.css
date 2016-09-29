@@ -4,7 +4,23 @@ font-family: 'Droid Sans', sans-serif;
 fontes do google*/
 body{
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  /*Unidades de medidas para CSS:
+  px(pixels)
+  % (Porcentagem - relativo)
+  pt(Relativo a fontes)
+  em(Multiplica pela fonte base referente a herança da div - body)*/
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Ubuntu', sans-serif;
+
+}
+.espaco{
+  margin-top: 32px;
+}
+.cinza-claro{
+  background-color: #f3f3f3;
+}
+p{
+
 }
